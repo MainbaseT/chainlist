@@ -292,7 +292,7 @@ export const extraRpcs = {
         trackingDetails: privacyStatement.unifra,
       },
       {
-        url: "https://ethereum.blockpi.network/v1/rpc/public",
+        url: "https://ethereum.public.blockpi.network/v1/rpc/public",
         tracking: "limited",
         trackingDetails: privacyStatement.blockpi,
       },
@@ -1517,7 +1517,7 @@ export const extraRpcs = {
         trackingDetails: privacyStatement.alchemy,
       },
       {
-        url: "https://arbitrum.blockpi.network/v1/rpc/public",
+        url: "https://arbitrum.public.blockpi.network/v1/rpc/public",
         tracking: "limited",
         trackingDetails: privacyStatement.blockpi,
       },
@@ -2220,7 +2220,7 @@ export const extraRpcs = {
         trackingDetails: privacyStatement.alchemy,
       },
       {
-        url: "https://optimism.blockpi.network/v1/rpc/public",
+        url: "https://optimism.public.blockpi.network/v1/rpc/public",
         tracking: "limited",
         trackingDetails: privacyStatement.blockpi,
       },
@@ -4620,7 +4620,6 @@ export const extraRpcs = {
       "https://evmos-testnet-rpc.kingsuper.services",
       "https://rpc.evmos.test.theamsolutions.info",
       "https://api.evmos-test.theamsolutions.info",
-      "https://rpc.evmos.testnet.node75.org",
       "https://rpc-evm.testnet.evmos.dragonstake.io",
       "https://evmos-testnet-rpc.stake-town.com",
       "https://evmos-testnet-jsonrpc.stake-town.com",
@@ -4945,7 +4944,7 @@ export const extraRpcs = {
         trackingDetails: privacyStatement.diamondswap,
       },
       {
-        url: "https://base.blockpi.network/v1/rpc/public",
+        url: "https://base.public.blockpi.network/v1/rpc/public",
         tracking: "limited",
         trackingDetails: privacyStatement.blockpi,
       },
@@ -5952,11 +5951,6 @@ export const extraRpcs = {
         url: "https://oasys.blockpi.network/v1/rpc/public",
         tracking: "limited",
         trackingDetails: privacyStatement.blockpi,
-      },
-      {
-        url: "https://oasys.rpc.grove.city/v1/167fa7a3",
-        tracking: "none",
-        trackingDetails: privacyStatement.pokt,
       },
       "wss://ws.mainnet.oasys.games/",
     ],
@@ -7721,6 +7715,7 @@ export const extraRpcs = {
         tracking: "none",
         trackingDetails: privacyStatement.bctech,
       },
+      "https://evm-rpc-archive.story.node75.org",
     ],
   },
   3030: {
@@ -7982,6 +7977,8 @@ export const extraRpcs = {
       },
       "https://aeneid-evm-rpc.krews.xyz",
       "https://story-aeneid-rpc.spidernode.net",
+      "https://evm-rpc.story.testnet.node75.org",
+      "https://story-aeneid-json-rpc.auranode.xyz"
     ],
   },
   224433: {
@@ -8242,6 +8239,22 @@ export const extraRpcs = {
         trackingDetails: privacyStatement.drpc,
       },
     ],
+  },
+  73115: {
+    rpcs: [
+      "https://rpc1-mainnet.icbnetwork.info",
+      "https://rpc2-mainnet.icbnetwork.info",
+      "https://main1.rpc-icb-network.io/",
+    ],
+  },
+  2632500: {
+    rpcs: ["https://coti-rpc.Hyperflow.finance", "wss://coti-rpc.Hyperflow.finance"],
+  },
+  7082400: {
+    rpcs: ["https://coti-test-rpc.Hyperflow.finance", "wss://coti-test-rpc.Hyperflow.finance"],
+  },
+  7233: {
+    rpcs: ["https://rpc-mainnet.inichain.com"],
   },
 };
 
